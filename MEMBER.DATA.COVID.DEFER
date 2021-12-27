@@ -25,7 +25,6 @@ SELECT
 	ACCOUNT:NUMBER<"9000000000" AND								[Not a '9' Charge-Off Account]
 	ACCOUNT:CLOSEDATE='--/--/--' AND
 	LOAN:CLOSEDATE='--/--/--'
-	
 END
 
 PRINT TITLE="Total Loan Portfolio Percentage Covid Deferment"
